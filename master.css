@@ -1,0 +1,64 @@
+body {
+    background-image: url('background.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+}
+
+html,
+body {
+  height: 100%
+}
+
+.mainSection {
+    background-color: rgb(0, 0, 0, .4);
+    padding: 1rem;
+}
+
+.logo {
+    min-width: 15rem;
+}
+
+h1{
+    color: #00DC00;
+}
+p{
+    padding: 0;
+    margin: 0;
+}
+
+.buttonHolder{
+    background-color: #00DC00;
+    padding: .5rem;
+}
+
+ul {
+    list-style-type:square;
+  }
+
+  li:first-child{
+    margin-top: 1rem;
+  }
+
+  .statusChargeGino{
+    height: 1.5rem;
+    width: 20vw ;
+    background-color: orange;
+    border: 1px solid white;
+  }
+
+  .statusChargeMike{
+    height: 1.5rem;
+    width: 40vw;
+    background-color: green;
+    border: 1px solid white;
+  }
+
+  .statusChargeFede{
+    height: 1.5rem;
+    width: 10vw;
+    background-color: red;
+    border: 1px solid white;
+  }
+
